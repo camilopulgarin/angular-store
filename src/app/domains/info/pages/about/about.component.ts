@@ -7,7 +7,7 @@ import { HeaderComponent } from '@shared/components/header/header.component';
 
 @Component({
   selector: 'app-about',
-  imports: [CommonModule, CounterComponent, WaveAudioComponent, HighlightDirective, HeaderComponent],
+  imports: [CommonModule, CounterComponent, WaveAudioComponent, HighlightDirective],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
