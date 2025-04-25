@@ -10,7 +10,7 @@ import { ProductService } from '@shared/services/product.service';
   templateUrl: './product-detail.component.html',
   styleUrl: './product-detail.component.css'
 })
-export class ProductDetailComponent {
+export default class ProductDetailComponent {
 
   @Input() id?: string;
   product = signal<Product | null>(null);
